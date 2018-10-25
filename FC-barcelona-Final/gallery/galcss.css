@@ -1,0 +1,89 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: linear-gradient(180deg,black,grey,black);
+}
+
+#main_div
+{
+	margin-top: 20px;
+	height: 800px;
+	width: 1200px;
+	border: 2px solid black;
+	border-radius: 15px;
+	background: linear-gradient(goldenrod, white);
+}
+
+#content
+{
+	float: left;
+	width:1194px;
+	height: 690px;
+	border: 2px solid black;
+	margin-top: 10px;
+	margin-left: 1px;
+}
+
+#header
+{
+	border: 2px solid #a1a1a1;
+	width: 600px;
+	height:60px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-radius: 25px;
+	box-shadow: 7px 7px 3px aliceblue;
+	background: linear-gradient(90deg,#8B0000,#00008B);
+	text-align:center;
+	font-size:40px;
+	color:#FFD700;
+	text-shadow: 3px 3px 3px #FF9966;
+
+}
+
+
+
+.pic
+{
+	width:350px;
+	height:350px;
+	float: left;
+	margin: 20px;
+	margin-left: 20px;
+}
+
+
+#s1,#s2,#s3
+{
+	height: 350px;
+	width: 350px;
+	margin-left: 20px;
+	margin-top: 65px;
+}
+
+#s1
+{
+	float: left;
+	margin-right: 20px;
+}
+
+#s2
+{
+	float: left;
+}
+
+#s3
+{
+	float: right;
+	margin-right: 35px;
+}
+#footer{background-color:#480000  ;
+		text-align:center;
+		font-size:20px;
+		padding: 5px;
+		height:90px;
+		width:1450px;
+		margin-left:-40px;
+		position:relative;
+		margin-top:50px;}

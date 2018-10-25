@@ -1,0 +1,132 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: url("4.jpg");
+	background-position: right;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	//background: linear-gradient(180deg,gold,aliceblue,aliceblue,gold);
+}
+.mySlides {display:none}
+
+
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+.ft
+{
+	color: black;
+	text-align: center;
+	font-family: tahoma;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#main_div
+{
+	margin-top: 20px;
+	height: 600px;
+	width: 1200px;
+	border: 2px solid black;
+	border-radius: 15px;
+	//background: linear-gradient(180deg,gold,aliceblue,aliceblue,gold);
+}
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  width: auto;
+  padding: 16px;
+  margin-px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.text {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+.dot {
+  cursor:pointer;
+  height: 6px;
+  width: 6px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+#header
+{
+	border: 2px solid #a1a1a1;
+	width: 600px;
+	height:60px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-radius: 25px;
+	box-shadow: 7px 7px 3px aliceblue;
+	background: linear-gradient(90deg,#8B0000,#00008B);
+	text-align:center;
+	font-size:40px;
+	color:#FFD700;
+	text-shadow: 3px 3px 3px #FF9966;
+
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+#footer
+{
+	background-color:#480000  ;
+		text-align:center;
+		font-size:20px;
+		padding: 5px;
+		height:120px;
+		width:1400px;
+		margin-left:-40px;
+		position:relative;
+		margin-top:50px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+

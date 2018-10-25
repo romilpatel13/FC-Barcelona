@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TicketBooking</title>
+<style type="text/css">
+	body
+	{
+		background-position: center;
+	}
+	h1
+	{
+		font-size: 40px;
+		color: black;
+		box-shadow: 5px 5px springgreen;
+		border: 5px solid black;
+		border-spacing: 5px;
+		padding: 10px;
+		font-family: cursive;
+		text-shadow:4px 4px springgreen;
+	}
+	#footer1{
+		background-color:#480000  ;
+		text-align:center;
+		font-size:20px;
+		padding: 5px;
+		height:90px;
+		width:1450px;
+		margin-left:-40px;
+		position:relative;
+		margin-top:50px;
+	}
+</style>
+
+</head>
+<body background="6.jpg">
+<form name="form1" action="welcome.html" method="get">
+<center>
+<fieldset style="width:700px;">
+<legend style="margin-top:20px;color:yellow;"><h1><i>Book your ticket here!!!</i></h1></legend>
+<dl>
+	<dt><b>Name:</b></dt>
+	<dd><input type="text" name="fname" placeholder="First Name" ></dd>
+	<dd><input type="text" name="lname"  placeholder="Last Name"><br></dd>
+	
+	<dt><b>Password</b></dt>
+	<dd><input type="password" name="password" placeholder="Enter your password"><br></dd>
+
+	<dt><b>E-mail:</b></dt>
+	<dd><input type="text" name="usremail" placeholder="xyz@abc.com" ><br></dd>
+
+	<dt><b>Select your ticket here!!</b></dt>
+	<dd><input type="radio" name="radio" value="child"> Child 
+	<input type="radio" name="radio" value="adult"> Adult 
+	<input type="radio" name="radio" value="senior_citizen"> Senior citizen</dd>
+	
+	<dt><b>Seating options:</b></dt>
+	<dd><select name="seat">
+			<option selected="selected">Front</option>
+			<option> Middle</option>                                
+			<option> Balcony</option>                             
+			<option>other</option>                          
+		</select>  
+	</dd>
+	
+	<dt><b>Number of tickets:</b></dt>
+	<dd><input type="text" name="nticket" id="numberofticket"placeholder="Enter number of tickets"></dd>
+</dl>
+<dl style="float:left;">
+
+	<dt><b>Pay by Credit Card</b></dt>
+	<dt><b>Card Number</b></dt>
+	<dd><input type="text"  name="cc_no" placeholder="1111-1111-1111-1111"/></dd>           
+
+    <dt><b>Expiry Date</b></dt>
+	<dd><select name="expiry_date">
+			<option value="">Month</option>
+			<option value="1" selected="selected">January</option>                                
+			<option value="2">February</option>                             
+			<option value="3">March</option>                          
+			<option value="4">April</option>                          
+			<option value="5">May</option>                           
+			<option value="6">June</option>                           
+			<option value="7">July</option>                          
+			<option value="8">August</option>                            
+			<option value="9">September</option>                    
+			<option value="10">October</option>                             
+			<option value="11">November</option>                            
+			<option value="12">December</option>                            
+		</select>                      
+                      
+
+    <select name="year">
+			<option value="2016" selected="selected">2016</option>                                
+			<option value="2017">2017</option>                             
+			<option value="2018">2018</option>                          
+			<option value="2019">2019</option>                          
+			<option value="2020">2020</option>                           
+			<option value="2021">2021</option>                           
+			<option value="2022">2022</option>                          
+			<option value="2023">2023</option>                            
+			<option value="2024">2024</option>                    
+            <option value="2025">2025</option>                             
+			<option value="2026">2026</option>                            
+			<option value="2027">2027</option>
+			<option value="2028">2028</option>                            
+			<option value="2029">2029</option>
+			<option value="2030">2030</option>
+
+        </select></dd>                    
+		<br/>
+        <dt><b>Security Code</b></dt>
+		<dd><input id="cvv" type="text" size="5" name="security_code" placeholder="111"/></dd>
+		<br/>
+		<br/>
+		
+</dl>
+
+<dl style="float:right;">
+
+	<dt><b>Pay by Credit Card</b></dt>
+	<dt><b>Card Number</b></dt>
+	<dd><input type="text" id="cc_no" name="cc_no" placeholder="1111-1111-1111-1111"/></dd>           
+
+    <dt><b>Expiry Date</b></dt>
+	<dd><select>
+			<option value="">Month</option>
+			<option value="1" selected="selected">January</option>                                
+			<option value="2">February</option>                             
+			<option value="3">March</option>                          
+			<option value="4">April</option>                          
+			<option value="5">May</option>                           
+			<option value="6">June</option>                           
+			<option value="7">July</option>                          
+			<option value="8">August</option>                            
+			<option value="9">September</option>                    
+			<option value="10">October</option>                             
+			<option value="11">November</option>                            
+			<option value="12">December</option>                            
+		</select>                      
+                      
+
+    <select>
+			<option value="2016" selected="selected">2016</option>                                
+			<option value="2017">2017</option>                             
+			<option value="2018">2018</option>                          
+			<option value="2019">2019</option>                          
+			<option value="2020">2020</option>                           
+			<option value="2021">2021</option>                           
+			<option value="2022">2022</option>                          
+			<option value="2023">2023</option>                            
+			<option value="2024">2024</option>                    
+            <option value="2025">2025</option>                             
+			<option value="2026">2026</option>                            
+			<option value="2027">2027</option>
+			<option value="2028">2028</option>                            
+			<option value="2029">2029</option>
+			<option value="2030">2030</option>
+
+        </select></dd>                    
+		<br/>
+        <dt><b>Security Code</b></dt>
+		<dd><input id="cvv" type="text" size="5" name="cvv" placeholder="111"/></dd>
+		<br/>
+		<br/>
+		
+	<dt><dd><INPUT TYPE="submit" VALUE="Click and See" style="margin-right:300px; text-align:center;"/></dd></dt>
+</dl>
+
+</fieldset>
+</center>
+</form>
+		<footer id="footer1">
+		
+		<p style="color:white;"> <i>FC BARCELONA</i> </P>
+		<p style="color:white;">
+    				&copy; Copyright Created By Anish Sharma Group
+    				
+    	</p>
+		</footer>
+</body>
+</html>

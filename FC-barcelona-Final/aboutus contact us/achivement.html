@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<title>Achievements</title>
+	<link rel="stylesheet" type="text/css" href="new.css">
+</head>
+<body>
+<center>
+	<div id="main_div">
+			<header id="header">Achievements</header>
+		<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="champions-league-trophy.jpg" style="width:100%">
+  <div class="text"><b>Champions League: </b>1991-92,2005-06,2008-09,2010-11,2014-15</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="eu.jpg" style="width:100%">
+  <div class="text"><b>European Cup Winners'Cup: </b>1978-79,1981-82,1988-89,1996-97</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="fair.jpg" style="width:100%">
+  <div class="text"><b>Fair Cup: </b>1957-58,1959-60,1965-66</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="FIFACUP.jpg" style="width:100%">
+  <div class="text"><b>FIFA Club World cup: </b>2009-10,2011-12,2015-16</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="2009_FIFA_Clu.jpg" style="width:100%">
+  <div class="text"><b>European Super Cup: </b>1992-93,2009-10,2011-12,2015-16</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="Copa_Latina_-_1952.jpg" style="width:100%">
+  <div class="text"><b>Latin Cup: </b>1948-49,1951-52</div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+   <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+	 <span class="dot" onclick="currentSlide(6)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+		</div>
+	</div>
+		<footer id="footer">
+		<p style="color:white;" > <i>FC BARCELONA</i> </p>
+		<p style="color:white;" >
+    				&copy; Copyright Created By Anish Sharma Group
+    				
+    	</p>
+		
+		
+		</footer>
+	
+</center>
+</body>
+</html>

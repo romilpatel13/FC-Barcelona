@@ -1,0 +1,122 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("g1.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#main_div
+{
+	margin-top: 20px;
+	height: 600px;
+	width: 1200px;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: aliceblue;
+}
+
+#main_nav
+{
+	float: left;
+	width:300px;
+	height: 470px;
+	border: 2px solid black;
+	margin-top: 10px;
+}
+
+#content
+{
+	float: left;
+	width:890px;
+	height: 470px;
+	border: 2px solid black;
+	margin-top: 10px;
+	margin-left: 1px;
+	background-color: powderblue;
+	background-image: url("team.jpg");
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	back
+}
+
+#header
+{
+	border: 2px solid #a1a1a1;
+	width: 600px;
+	height:60px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-radius: 25px;
+	box-shadow: 7px 7px 3px aliceblue;
+	background: linear-gradient(90deg,#8B0000,#00008B);
+	text-align:center;
+	font-size:40px;
+	color:#FFD700;
+	text-shadow: 3px 3px 3px #FF9966;
+
+}
+
+#footer
+{
+	background-color:#CD853F;
+	clear:both;
+	text-align:center;
+	font-size:10px;
+	padding: 5px;
+}
+
+#gk,#d,#m,#f
+{
+	float: left;
+	width:882px;
+	height: 462px;
+	margin:2px 2px 2px 2px;
+	overflow:scroll;
+	display: none;
+}
+
+div
+{
+	font-size: 25px;
+}
+
+img
+{
+	width: 860px;
+	height: 460px;
+}
+
+#content1
+{
+	float: left;
+	width:1174px;
+	height: 470px;
+	border: 2px solid black;
+	margin-top: 10px;
+	margin-left: 1px;
+	overflow: scroll;
+	padding: 10px;
+	color: black;
+}
+
+#footer1
+{
+	background-color:#480000  ;
+	text-align:center;
+	font-size:20px;
+	padding: 10px;
+	position:relative;
+	
+	height:80px;
+	width:1450px;
+}
